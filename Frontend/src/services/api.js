@@ -2,10 +2,10 @@
 import { IP_ADDRESS, PORT} from "@env"
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const BASE_URL = `http://${IP_ADDRESS}:${PORT}/api`; // ← Remplace par ton IP locale
-
+const BASE_URL = `http://${IP_ADDRESS}:${PORT}/api`; // ← Créer un fichier .env et ajouter ton IP adress local de sous "Carte réseau sans fil Wi-Fi"
+// et ajouter aussi votre port qui écoute sur votre backend
 // Pour trouver ton IP : ipconfig (Windows) ou ifconfig (Mac/Linux)
-// Exemple : http://192.168.1.15:5000/api
+
 
 const getHeaders = async () => {
   const token = await AsyncStorage.getItem('token');
