@@ -328,7 +328,3 @@ createdAt, updatedAt
 Projet réalisé dans le cadre d'un TP React Native / Node.js.
 
 ---
-
-## 📝 License
-
-MIT
