@@ -27,15 +27,7 @@ cp .env.example .env
 
 ### Variables d'environnement (`.env`)
 
-```env
-PORT=5000
-NODE_ENV=development
 
-MONGO_URI=mongodb://localhost:27017/banka
-
-JWT_SECRET=ton_secret_ultra_securise
-JWT_EXPIRES_IN=7d
-```
 
 ### Lancement
 
