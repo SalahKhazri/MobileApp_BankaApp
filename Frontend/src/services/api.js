@@ -1,7 +1,8 @@
 // src/services/api.js
+import { IP_ADDRESS, PORT} from "@env"
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const BASE_URL = 'http://192.168.67.69:3000/api'; // ← Remplace par ton IP locale
+const BASE_URL = `http://${IP_ADDRESS}:${PORT}/api`; // ← Remplace par ton IP locale
 
 // Pour trouver ton IP : ipconfig (Windows) ou ifconfig (Mac/Linux)
 // Exemple : http://192.168.1.15:5000/api

@@ -7,7 +7,7 @@ import connectDB from "./config/db.js";
 const startServer = async () => {
   await connectDB(); // Connexion MongoDB en premier
 
-  app.listen(ENV.PORT, () => {
+  app.listen(ENV.PORT, "0.0.0.0" ,   () => {
     console.log(`🚀 Serveur lancé sur le port ${ENV.PORT} [${ENV.NODE_ENV}]`);
   });
 };
