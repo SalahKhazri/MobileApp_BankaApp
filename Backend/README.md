@@ -452,6 +452,3 @@ Le token est retourné lors du `register` et du `login`. Sa durée de vie est co
 
 ---
 
-## 📝 License
-
-MIT
